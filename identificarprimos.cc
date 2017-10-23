@@ -9,7 +9,7 @@ int main()
   int primo=0;
     cout<<"Dame un nùmero entero"<<endl;
   cin>> N;
- for (int i=2;i<=(N/2);i++)
+ for (int i=2;i<=(N/2);i++)  //i=i+1 -> i++
    {
      if ((N%i)==0) {
 	 primo=1;
